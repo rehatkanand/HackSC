@@ -1,0 +1,31 @@
+/* Styling for the popup panel */
+#pageStylerPanel {
+  position: absolute;  /* Keeps the panel in a fixed position */
+  top: 20px;
+  left: 20px;
+  width: 500px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  z-index: 10000;  /* Ensure the panel is above other content */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: move;
+  user-select: none;
+}
+
+/* Header styles */
+#pageStylerPanel h3 {
+  font-size: 16px;
+  margin-top: 0;
+  color: #333;
+}
+
+
+#pageStylerPanel label,
+#pageStylerPanel button {
+  display: inline-block;
+  margin-right: 10px;
+}
